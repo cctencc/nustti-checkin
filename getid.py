@@ -38,7 +38,7 @@ def getid():
         ('tPi', '4rNjc0nzWWrIL0h3SjhvU5aYgkcUIl7aRJqTpD9d2022110161526'),
     )
 
-    response = requests.get('http://zs.nustti.edu.cn/yqfk/stu_login/default_serv.asp', headers=headers, params=params, cookies=cookies, verify=False)
+    response = requests.get('https://zs.nustti.edu.cn/yqfk/stu_login/default_serv.asp', headers=headers, params=params, cookies=cookies, verify=False)
 
     # regexp for 5 nums
     reg = r'\d{5}'
